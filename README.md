@@ -6,9 +6,9 @@
 
 ## Run
 1. Install MySQL 8.0+.
-2. Open MySQL Workbench or MySQL CLI.
+2. Open MySQL Workbench or MySQL CLI and DBeaver CE.
 3. Run `schema.sql`.
-4. The script creates the `bookmyshow_backend` database and all tables/sample data.
+4. The script creates the `bookmyshow` database and all tables/sample data.
 5. The P2 query is included at the bottom.
 
 ## Concurrency design
