@@ -216,6 +216,7 @@ WHERE sd.theatre_id = 1
   AND sh.status = 'SCHEDULED'
 ORDER BY sh.start_time;
 
+
 -- Concurrency example: inside START TRANSACTION:
 -- SELECT * FROM show_seats
 -- WHERE show_id=:show_id AND seat_id IN (:seat1,:seat2)
